@@ -1,0 +1,24 @@
+
+cat > .gitignore << 'EOF'
+venv/
+node_modules/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pt
+*.keras
+*.jsonl
+EVALUATION/
+.env
+EOF
+
+*.h5
+*.tflite
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.zip
+node_modules/
+__pycache__/
+.env
